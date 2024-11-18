@@ -1,0 +1,92 @@
+.bordurnav{
+    position: sticky;
+    top:0;
+    width: 99%;
+    background-color: black ;
+    opacity: 0.5;
+    padding: 14px;
+    z-index: 1;
+    border-radius: 9px;
+    border-bottom: 2px black solid;
+}
+
+#content{
+    font-size: 120%;
+    margin-left: 60%;
+    margin-top: -4%;
+    
+}
+nav {
+    border: 1px black solid;
+    display: table;
+    background-color: transparent;
+    border-radius: 11px;
+    padding-bottom: 10px;
+    top: 0;
+
+}
+.bigpage{
+    border: 3px black solid;
+    background-color: rgb(216, 216, 216);
+    padding: 10px;
+    border-radius: 11px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+.nom h1{
+    z-index: 1;
+    color :hsl(0, 0%, 79%);
+    text-decoration: underline;
+}
+.nom{
+    font-size: 200%;
+    margin-bottom: 5%;
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+    padding: 3px 5px 3px 5px;
+}
+
+nav ul li a {
+    text-decoration:none;
+    color: hsl(0, 0%, 79%);
+    font-size: 88%;
+    text-decoration: underline;
+}
+.bordurnav h1{
+    
+    color:hsl(0, 0%, 79%);
+
+    font-style: italic;
+
+}
+
+
+body{
+    
+    background-image: url(https://gabriel-it.fr/wp-content/uploads/2023/03/cropped-unnamed-file-rotated-1.jpg)
+    
+}
+
+.projetperso{
+    border: 1px black solid;
+    border-radius: 11px;
+    display: table;
+    padding: 20px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    margin-left: 20%;
+}
+
+.bigpage h1{
+    text-decoration: underline;
+}
+.projetscolaire{
+    border: 1px black solid;
+    border-radius: 11px;
+    display: table;
+    padding: 20px;
+    margin-left: 20%;
+    margin-bottom: 100px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}

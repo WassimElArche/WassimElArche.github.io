@@ -1,0 +1,197 @@
+.bordurnav{
+    position: sticky;
+    top:0;
+    width: 99%;
+    background-color: black ;
+    opacity: 0.5;
+    padding: 14px;
+    z-index: 1;
+    border-radius: 9px;
+    border-bottom: 2px black solid;
+}
+
+#content{
+    font-size: 120%;
+    margin-left: 60%;
+    margin-top: -4%;
+    
+}
+nav {
+    border: 1px black solid;
+    display: table;
+    background-color: transparent;
+    border-radius: 11px;
+    padding-bottom: 10px;
+    top: 0;
+
+}
+
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+    padding: 3px 5px 3px 5px;
+}
+
+nav ul li a {
+    text-decoration:none;
+    color: hsl(0, 0%, 79%);
+    font-size: 88%;
+    text-decoration: underline;
+}
+.bordurnav h1{
+    
+    color:hsl(0, 0%, 79%);
+
+    font-style: italic;
+
+}
+
+
+body{
+    
+    background-image: url(https://gabriel-it.fr/wp-content/uploads/2023/03/cropped-unnamed-file-rotated-1.jpg)
+    
+}
+
+
+
+
+.apropo{
+    border: 2px black solid;
+    margin-top: auto;
+    border-radius: 11px;
+    padding: 16px;
+    height: 500px;
+    background-color: rgb(200, 200, 200);
+    width: 40%;
+    margin-left: 2%;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    
+
+
+    
+}
+.apropo h1{
+    top:0;
+    text-decoration: underline;
+    
+
+
+}
+.apropo p {
+    font-size: 25px;
+    
+}
+
+.fin{
+    border-top: 1px black solid;
+    bottom: 100%;
+    padding: 30px;
+    background-color: black;
+    left:0;
+    right: 0;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+.fin p{
+    color :white;
+}
+
+.palmares1{
+    border: 2px black solid;
+    background-color: rgb(200, 200, 200);
+    border-radius:11px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+
+.image{
+    width: 8%;
+    margin-left:10%;
+    
+}
+
+.image1{
+    width: 12%;
+    margin-left: 13%;
+
+}
+.image2{
+    width: 7%;
+    margin-left: 13%;
+}
+
+.image3{
+    width: 9%;
+    margin-left: 13%;
+}
+
+.parcours{
+    border: 1px black solid;
+    background-color: rgb(200, 200, 200);
+    border-radius: 11px;
+    margin-top: 8%;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+.parcours ul{
+    font-size: 170%;
+   
+}
+.parcours h1{
+    text-decoration: underline;
+
+}
+
+.bouton{
+    font-size: 30px;
+    border-radius: 11px;
+    background-color: rgb(62, 62, 62);;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+.bouton button{
+    background-color: white;
+}
+.palmares1 h1{
+    color: black;
+    text-decoration: underline;
+}
+
+.imagedebut{
+    font-size: 200%;
+    margin-bottom: 5%;
+}
+.imagedebut h1{
+    z-index: 1;
+    color :hsl(0, 0%, 79%);
+    text-decoration: underline;
+}
+.bigpage{
+    border: 3px black solid;
+    background-color:rgb(216, 216, 216);
+    padding: 10px;
+    border-radius: 11px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+}
+
+.sio{
+    border: 2px black solid;
+    margin-top: auto;
+    border-radius: 11px;
+    padding: 16px;
+    margin-left: 13%;
+    height: 500px;
+    background-color: rgb(200, 200, 200);
+    width: 40%;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);   
+    
+}
+.sio h1{
+    text-decoration: underline;
+}
+.sio p{
+    font-size: 25px;
+}
+.box{
+    margin-top: 30px;
+    display: flex;
+}
