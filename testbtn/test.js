@@ -53,7 +53,7 @@ Highcharts.chart('container', {
           name: 'PHP',
           value: 767.1
       }, {
-          name: 'Csharp',
+          name: 'Java',
           value: 700.7
       },
       {
@@ -65,17 +65,16 @@ Highcharts.chart('container', {
           value: 700.7
       },
       {
-          name: 'JavaScript',
-          value: 700.1
-      },
-      {
           name: 'HTML',
           value: 700.6
       },
       {
           name: 'SQL',
           value: 700.1
-      }]
+      },{
+        name: 'C',
+        value: 700.1
+    }]
   }, {
       name: 'Framework',
       data: [{
@@ -86,20 +85,11 @@ Highcharts.chart('container', {
           name: 'Bootstrap',
           value: 500.2
       },
-      {
-        name: 'p5.js',
-        value: 500.2
-      },
-      {
-          name: 'WinForm',
-          value: 500.1
-      }]
+
+     ]
   }, {
       name: 'Tools',
-      data: [{
-          name: 'Unity',
-          value: 600.5
-      },
+      data: [
       {
           name: 'Git',
           value: 600.5

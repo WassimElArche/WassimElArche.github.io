@@ -19,6 +19,12 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        .card-img-top {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
 </head>
 
 <body>
@@ -33,6 +39,7 @@
                     <li class="nav-item"><a class="nav-link" href="index.html#about">Présentation</a></li>
                     <li class="nav-item"><a class="nav-link" href="index.html#services">Qualités</a></li>
                     <li class="nav-item"><a class="nav-link" href="index.html#portfolio">Projets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="epreuvee4.html">Epreuve E4</a></li>
                     <li class="nav-item"><a class="nav-link" href="Veille.html">Veille</a></li>
                     <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
                 </ul>
@@ -41,8 +48,13 @@
     </nav>
 
     <header class="masthead2 bg-primary">
-        <h1 class="text-white align-items-center justify-content-center text-center">Veille technologique</h1>
+        <h1 class="text-white align-items-center justify-content-center text-center">Veille technologique : Asahi Linux</h1>
         <hr class="divider divider-light" />
+    </header>
+
+    <header class="masthead2 bg-primary">
+       
+        
         </br>
         </br>
         </br>
@@ -101,64 +113,175 @@
                         width: 400px;"/>
                     </div>
                 </div>
+
+    <section class="page-section" id="veille">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Veille Technologique </h2>
+                <h3 class="section-subheading text-muted"></h3>
             </div>
-            </br>
-            </br>
-            <div class="row">
-                <div class="border10 text-white">
-                    <div class="border11 col-4">
-                        <img src="assets/img/asahi-linux-810x407.png" style="height: 301px;
-                        width: 600px;"/>
-                    </div>
-                    <div class="border11 col-4">
-                        <h4>Développement de logiciels :</h4><br>
-                        Le projet Asahi Linux vise à permettre aux utilisateurs d'exécuter des logiciels Linux sur les appareils Apple Silicon. Cela nécessite le 
-                        développement de logiciels pour prendre en charge les fonctionnalités spécifiques à Apple, telles que le Touch ID et le Face ID. Les développeurs
-                         ont dû écrire des bibliothèques pour fournir ces fonctionnalités aux applications Linux. Ce travail de développement est crucial pour offrir une 
-                         expérience utilisateur transparente sur les appareils Apple Silicon.
+            <div class="row text-white">
+                <!-- Nouveaux blocs de veille -->
+                <!-- Vulkan 1.4 Driver Release -->
+                <div class="col-md-4">
+                    <div class="card bg-dark mb-4">
+                        <img class="card-img-top" src="https://example.com/vulkan_driver.jpeg" alt="Vulkan Driver">
+                        <div class="card-body">
+                            <h5 class="card-title">Vulkan 1.4 Driver Release</h5>
+                            <p class="card-text">Asahi Linux a introduit le premier driver Vulkan 1.4 pour le matériel Apple, améliorant les performances graphiques et la compatibilité.</p>
+                            <p class="text-muted">Date : 10 décembre 2024</p>
+                            <a href="https://asahilinux.org/blog/" target="_blank" class="btn btn-light btn-sm">En savoir plus</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            </br>
-            </br>
-            <div class="row">
-                <div class="border10 text-white">
-                    <div class="border11 col-5" style="margin-left: 100px;margin-top: 80px;">
-                        <h4>Conclusion :</h4><br>
-                        Le projet Asahi Linux est un projet open-source passionnant qui touche à de nombreux domaines de l'informatique,
-                         notamment l'architecture des systèmes, les pilotes de matériel, les systèmes d'exploitation et le développement de logiciels.
-                          En se concentrant sur les aspects de développement du projet Asahi Linux, nous pouvons voir l'importance du développement du 
-                          noyau Linux, des outils de développement et des logiciels pour permettre à Linux de fonctionner sur les appareils Apple Silicon. 
-                          Ce projet est un excellent exemple de la façon dont le développement de logiciels open-source peut avoir un impact sur l'industrie
-                           informatique dans son ensemble.
-                    </div>
-                    <div class="col-4" style="margin-top: 100px;">
-                        <h4>Flux RSS :</h4><br>
-                        <!-- start feedwind code --> <script type="text/javascript" src="https://feed.mikle.com/js/fw-loader.js" preloader-text="Loading" data-fw-param="166554/"></script> <!-- end feedwind code -->
+
+                <!-- Enhanced x86/x86-64 Emulation -->
+                <div class="col-md-4">
+                    <div class="card bg-dark mb-4">
+                        <img class="card-img-top" src="https://example.com/emulation_update.jpeg" alt="Emulation Update">
+                        <div class="card-body">
+                            <h5 class="card-title">Amélioration de l'émulation x86/x86-64</h5>
+                            <p class="card-text">La dernière mise à jour améliore l'émulation x86/x86-64, permettant une exécution fluide des applications non ludiques sur Asahi Linux.</p>
+                            <p class="text-muted">Date : 5 décembre 2024</p>
+                            <a href="https://asahilinux.org/blog/" target="_blank" class="btn btn-light btn-sm">En savoir plus</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="border10 text-white">
-                    <div class="border11 col-5" style="margin-left: 100px;margin-top: 80px;">
-                        <h3>Mes sources :</h3>
-                        <a href="https://asahilinux.org/about/" target="_blank" class="text-white">Site officiel du projet Asahi Linux</a><br>
-                        <a href="https://github.com/AsahiLinux" target="_blank" class="text-white">Git du projet Asahi Linux</a><br>
-                        <a href="https://fr.wikipedia.org/wiki/Asahi_Linux" target="_blank" class="text-white">Wiki du projet</a><br>
-                        <p>Video qui résume le projet par la chaine Youtube Underscore_ :</p><br>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/UfrsyoFUXmU?si=DLGxcQzOIHRuZiZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <!-- Core Audio Enhancements -->
+                <div class="col-md-4">
+                    <div class="card bg-dark mb-4">
+                        <img class="card-img-top" src="https://example.com/audio_enhancements.jpeg" alt="Audio Enhancements">
+                        <div class="card-body">
+                            <h5 class="card-title">Améliorations Audio</h5>
+                            <p class="card-text">Des corrections récentes ont permis une meilleure prise en charge des périphériques audio complexes, comme les microphones dédiés aux professionnels.</p>
+                            <p class="text-muted">Date : 1 décembre 2024</p>
+                            <a href="https://asahilinux.org/blog/" target="_blank" class="btn btn-light btn-sm">En savoir plus</a>
+                        </div>
                     </div>
                 </div>
+
+                <!-- Energy-Efficiency Boost -->
+                <div class="col-md-4">
+                    <div class="card bg-dark mb-4">
+                        <img class="card-img-top" src="https://example.com/efficiency_boost.jpeg" alt="Efficiency">
+                        <div class="card-body">
+                            <h5 class="card-title">Efficacité Énergétique</h5>
+                            <p class="card-text">Une optimisation récente réduit de 15 % la consommation énergétique sur les MacBook M1 et M2.</p>
+                            <p class="text-muted">Date : 25 novembre 2024</p>
+                            <a href="https://asahilinux.org/blog/" target="_blank" class="btn btn-light btn-sm">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Touchpad Gestures -->
+                <div class="col-md-4">
+                    <div class="card bg-dark mb-4">
+                        <img class="card-img-top" src="https://example.com/touchpad.jpeg" alt="Touchpad">
+                        <div class="card-body">
+                            <h5 class="card-title">Gestes sur le Touchpad</h5>
+                            <p class="card-text">Une nouvelle compatibilité avec les gestes à plusieurs doigts permet une expérience utilisateur plus fluide.</p>
+                            <p class="text-muted">Date : 20 novembre 2024</p>
+                            <a href="https://asahilinux.org/blog/" target="_blank" class="btn btn-light btn-sm">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kernel Optimizations -->
+                <div class="col-md-4">
+                    <div class="card bg-dark mb-4">
+                        <img class="card-img-top" src="https://example.com/kernel_update.jpeg" alt="Kernel Update">
+                        <div class="card-body">
+                            <h5 class="card-title">Optimisation du Kernel</h5>
+                            <p class="card-text">Les dernières optimisations kernel réduisent considérablement le temps de démarrage et les tâches intensives CPU.</p>
+                            <p class="text-muted">Date : 15 novembre 2024</p>
+                            <a href="https://asahilinux.org/blog/" target="_blank" class="btn btn-light btn-sm">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mac Studio Support -->
+                <div class="col-md-4">
+                    <div class="card bg-dark mb-4">
+                        <img class="card-img-top" src="https://example.com/mac_studio.jpeg" alt="Mac Studio">
+                        <div class="card-body">
+                            <h5 class="card-title">Support Mac Studio</h5>
+                            <p class="card-text">Asahi Linux étend son support au Mac Studio, apportant des performances de niveau professionnel aux utilisateurs Linux.</p>
+                            <p class="text-muted">Date : 1 novembre 2024</p>
+                            <a href="https://asahilinux.org/blog/" target="_blank" class="btn btn-light btn-sm">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Nouveau GPU Acceleration -->
+                <div class="col-md-4">
+                    <div class="card bg-dark mb-4">
+                        <img class="card-img-top" src="https://example.com/gpu_acceleration.jpeg" alt="GPU Acceleration">
+                        <div class="card-body">
+                            <h5 class="card-title">Accélération GPU</h5>
+                            <p class="card-text">La prise en charge de l'accélération GPU atteint de nouveaux sommets avec des performances améliorées pour les logiciels de rendu.</p>
+                            <p class="text-muted">Date : 15 octobre 2023</p>
+                            <a href="https://asahilinux.org/blog/" target="_blank" class="btn btn-light btn-sm">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Multi-Monitor Support -->
+                <div class="col-md-4">
+                    <div class="card bg-dark mb-4">
+                        <img class="card-img-top" src="https://example.com/multi_monitor.jpeg" alt="Multi-Monitor">
+                        <div class="card-body">
+                            <h5 class="card-title">Support Multi-Écran</h5>
+                            <p class="card-text">Asahi Linux introduit le support complet pour des configurations multi-écrans sur les MacBook M1/M2.</p>
+                            <p class="text-muted">Date : 10 septembre 2023</p>
+                            <a href="https://asahilinux.org/blog/" target="_blank" class="btn btn-light btn-sm">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- USB Device Improvements -->
+               
             </div>
-            </br>
-            </br>
-            
         </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    <script src="js/contact.js"></script>
-    <script src="testbtn/test.js"></script>
+        <div class="row">
+            <div class="border10 text-white">
+                <div class="border11 col-5" style="margin-left: 100px;margin-top: 80px;">
+                    <h4>Conclusion :</h4><br>
+                    Le projet Asahi Linux est un projet open-source passionnant qui touche à de nombreux domaines de l'informatique,
+                     notamment l'architecture des systèmes, les pilotes de matériel, les systèmes d'exploitation et le développement de logiciels.
+                      En se concentrant sur les aspects de développement du projet Asahi Linux, nous pouvons voir l'importance du développement du 
+                      noyau Linux, des outils de développement et des logiciels pour permettre à Linux de fonctionner sur les appareils Apple Silicon. 
+                      Ce projet est un excellent exemple de la façon dont le développement de logiciels open-source peut avoir un impact sur l'industrie
+                       informatique dans son ensemble.
+                </div>
+               
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="border10 text-white">
+                <div class="border11 col-5" style="margin-left: 100px;margin-top: 80px;">
+                    <h3>Mes sources :</h3>
+                    <a href="https://asahilinux.org/about/" target="_blank" class="text-white">Site officiel du projet Asahi Linux</a><br>
+                    <a href="https://github.com/AsahiLinux" target="_blank" class="text-white">Git du projet Asahi Linux</a><br>
+                    <a href="https://fr.wikipedia.org/wiki/Asahi_Linux" target="_blank" class="text-white">Wiki du projet</a><br>
+                    <p>Video qui résume le projet par la chaine Youtube Underscore_ :</p><br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UfrsyoFUXmU?si=DLGxcQzOIHRuZiZ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+        </br>
+        </br>
+        
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+<script src="js/contact.js"></script>
+<script src="testbtn/test.js"></script>
 </body>
+    </section>
+</body>
+
+</html>

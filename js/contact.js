@@ -2,7 +2,7 @@ const git = document.querySelector("#git")
 
 git.addEventListener('click',(e)=>{
     e.preventDefault()
-    window.open('https://github.com/NabilBoubekri','_blank')
+    window.open('https://github.com/wassimelarche','_blank')
 })
 
 const linkedin = document.querySelector("#linkedin")
@@ -35,7 +35,7 @@ const mail = document.querySelector("#mail")
 
 mail.addEventListener('click',(e)=>{
     e.preventDefault()
-    window.open('mailto: nabil.boubekri24@mail.com')
+    window.open('mailto: elarchewassim@gmail.com')
 })
 
 document.querySelectorAll('.gravityButton').forEach(btn => {
