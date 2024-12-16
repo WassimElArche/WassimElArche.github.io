@@ -53,7 +53,7 @@ Highcharts.chart('container', {
           name: 'PHP',
           value: 767.1
       }, {
-          name: 'Java',
+          name: 'java',
           value: 700.7
       },
       {
@@ -72,7 +72,7 @@ Highcharts.chart('container', {
           name: 'SQL',
           value: 700.1
       },{
-        name: 'C',
+        name: 'c',
         value: 700.1
     }]
   }, {
@@ -91,7 +91,7 @@ Highcharts.chart('container', {
       name: 'Tools',
       data: [
       {
-          name: 'Git',
+          name: 'git',
           value: 600.5
       },
       {
