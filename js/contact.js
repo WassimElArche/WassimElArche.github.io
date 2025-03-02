@@ -7,10 +7,7 @@ git.addEventListener('click',(e)=>{
 
 const linkedin = document.querySelector("#linkedin")
 
-linkedin.addEventListener('click',(e)=>{
-    e.preventDefault()
-    window.open('https://www.linkedin.com/in/nabil-boubekri-612035302/','_blank')
-})
+
 
 /*git.addEventListener('mouseover',(e)=>{
     e.preventDefault()
@@ -24,12 +21,6 @@ git.addEventListener('mouseleave',(e)=>{
     console.log("souris sorti")
 })*/
 
-const insta = document.querySelector("#insta")
-
-insta.addEventListener('click',(e)=>{
-    e.preventDefault()
-    window.open('https://www.instagram.com/Nabilsevran93/','_blank')
-})
 
 const mail = document.querySelector("#mail")
 

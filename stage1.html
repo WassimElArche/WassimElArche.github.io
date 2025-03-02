@@ -50,50 +50,68 @@
         </div>
     </nav>
 
-    <header class="masthead2 bg-primary">
-        <h1 class="text-white align-items-center justify-content-center text-center">Epreuve E4</h1>
+    <header class="masthead2 bg-primary text-white text-center">
+        <h1>Stage de première année</h1>
         <hr class="divider divider-light" />
-        </br>
-        </br>
-        </br>
+    </header>
 
-        </br>
-        </br>
-        </br>
+    <section class="stage-section">
         <div class="container">
-            <div class="row">
-                <div class="border10 text-white">
-                    <div class="border11">
-                        <h3 class="text-white">Qu'est-ce que l'épreuve E4 ?</h3>
-                        <br>
-                        <div>
-                            Cette épreuve vise à évaluer chez la personne candidate l’acquisition des compétences décrites dans le bloc de compétences « Support et mise à disposition de services informatiques », à savoir :
-<li>
-<ol>- Gérer le patrimoine informatique</ol>
+            <div class="stage-header">
+                <h2>Présentation du Stage</h2>
+            </div>
+            <div class="stage-container">
+                <div class="stage-block">
+                    <h3>L'Entreprise</h3>
+                    <p><strong>Nom :</strong> La Lucarne des Écrivains</p>
+                    <p><strong>Adresse :</strong> 115 Rue de l'Ourcq, 75019 Paris</p>
+                    <p><strong>Durée :</strong> 06/05/2024 - 14/06/2024</p>
+                </div>
 
-<ol>- Répondre aux incidents et demandes d’assistance et d’évolution</ol>
-
-<ol>- Développer la présence en ligne de l’organisation</ol>
-
-<ol>- Travailler en mode projet</ol>
-
-<ol>- Mettre à disposition des utilisateurs un service informatique</ol>
-
-<ol>- Organiser son développement professionnel</ol></li>
-                        </div>
-                    </div>
+                <div class="stage-block">
+                    <h3>Les Missions Réalisées</h3>
+                    <ul>
+                        <li>Création du compte client et mise en forme du site</li>
+                        <li>Création d’un blog </li>
+                        <li>Système de paiement avec Stripe</li>
+                        <li>Ajout des article sur le site</li>
+                        <li>Référencement du site </li>
+                    </ul>
                 </div>
             </div>
-            </br>
+            <br>
+            <center><a class="btn btn-light btn-xl" href="vraiRapport.pdf" target="_blank" style="border: 1px solid black;">Rapport de stage 1er année</a></center>
 
-            <a class="btn btn-light btn-xl" href="6- Annexe 6-1 - Tableau de synthèse - Epreuve E4 - BTS SIO 2023.pdf" target="_blank">Tableau de synthèse</a>
-            <br> <br>
-            
-            
+        </div>
+        
+    </section>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    <script src="js/contact.js"></script>
-    <script src="testbtn/test.js"></script>
 </body>
+</html>
+
+<style>
+    .stage-section {
+        padding: 80px 0;
+        background-color: #f8f9fa;
+    }
+    .stage-header {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .stage-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .stage-block {
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        flex: 1;
+        min-width: 300px;
+        max-width: 450px;
+    }
+</style>
